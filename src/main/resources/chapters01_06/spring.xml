@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<bean id="triangle" class="io.javabrains.learningspringcore.chapters01_06.Triangle">
+		<property name="type" value="Equilateral" />
+		<constructor-arg type="int" value="20" />
+		<constructor-arg index="0" value="Equilateral" />
+	</bean>
+</beans>

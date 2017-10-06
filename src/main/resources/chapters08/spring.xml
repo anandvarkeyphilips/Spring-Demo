@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<bean id="triangle" class="io.javabrains.learningspringcore.chapters08.Triangle"
+		name="traingle-name">
+		<property name="pointA">
+			<ref bean="zeroPoint" />
+		</property>
+		<property name="pointB">
+			<bean class="io.javabrains.learningspringcore.chapters08.Point">
+				<property name="x" value="20" />
+				<property name="y" value="0" />
+			</bean>
+		</property>
+		<property name="pointC">
+			<bean id="point3" class="io.javabrains.learningspringcore.chapters08.Point">
+				<property name="x" value="0" />
+				<property name="y" value="20" />
+			</bean>
+		</property>
+	</bean>
+	<bean id="zeroPoint" 
+		class="io.javabrains.learningspringcore.chapters08.Point">
+		<property name="x" value="0" />
+		<property name="y" value="0" />
+	</bean>
+	<alias name="triangle" alias="triangle-alias" />
+</beans>
