@@ -2,7 +2,7 @@
 ### UNIT 1
 
 Introduction to Spring and Dependency Injection
-Learn what the Spring Framework is all about. Understand the concept of Dependency Injection and get started with using the Spring framework. You'll learn how to setup your development environment to start writing Spring applications. You'll also create and inject Spring beans using XML configuration.
+> Learn what the Spring Framework is all about. Understand the concept of Dependency Injection and get started with using the Spring framework. You'll learn how to setup your development environment to start writing Spring applications. You'll also create and inject Spring beans using XML configuration.
 
 1. Understanding Dependency Injection 14 minutes
 2. Setting Up 3 minutes
@@ -19,7 +19,7 @@ Learn what the Spring Framework is all about. Understand the concept of Dependen
 ### UNIT 2
 
 Scopes and Lifecycles
-Understand the concept of scopes in a Spring application. Learn how to access the application context directly from your code. Use the bean inheritance feature to manage your configuration. Implement various post-processor hooks to tap into the lifecycle of your Spring application.
+> Understand the concept of scopes in a Spring application. Learn how to access the application context directly from your code. Use the bean inheritance feature to manage your configuration. Implement various post-processor hooks to tap into the lifecycle of your Spring application.
 
 12. Understanding Bean Scopes 11 minutes
 13. Using ApplicationContextAware 8 minutes
@@ -33,7 +33,7 @@ Understand the concept of scopes in a Spring application. Learn how to access th
 ### UNIT 3
 
 Annotations and Event Handling
-There is an easier (and better) way to manage your Spring configuration - using Annotations. Learn how to declare and configure Spring beans using annotations. Learn how to autowire beans and implement component stereotypes. Also learn how to write and publish custom events in your Spring application.
+> There is an easier (and better) way to manage your Spring configuration - using Annotations. Learn how to declare and configure Spring beans using annotations. Learn how to autowire beans and implement component stereotypes. Also learn how to write and publish custom events in your Spring application.
 
 19. Introduction to Annotations and the Required Annotation 9 minutes
 20. The Autowired Annotation 14 minutes
