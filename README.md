@@ -1,0 +1,43 @@
+# Spring Core Concepts from Java Brains
+UNIT 1
+
+Introduction to Spring and Dependency Injection
+Learn what the Spring Framework is all about. Understand the concept of Dependency Injection and get started with using the Spring framework. You'll learn how to setup your development environment to start writing Spring applications. You'll also create and inject Spring beans using XML configuration.
+
+  Understanding Dependency Injection 14 minutes
+  Setting Up 3 minutes
+  Understanding Spring Bean Factory 6 minutes
+  Writing Code Using the Bean Factory 11 minutes
+  ApplicationContext and Property Initialization 7 minutes
+  Using Constructor Injection 14 minutes
+  Injecting Objects 15 minutes
+  Inner Beans, Aliases and idref 9 minutes
+  Initializing Collections 6 minutes
+  Bean Autowiring 7 minutes
+  
+  
+UNIT 2
+
+Scopes and Lifecycles
+Understand the concept of scopes in a Spring application. Learn how to access the application context directly from your code. Use the bean inheritance feature to manage your configuration. Implement various post-processor hooks to tap into the lifecycle of your Spring application.
+
+  Understanding Bean Scopes 11 minutes
+  Using ApplicationContextAware 8 minutes
+  Bean Definition Inheritance 9 minutes
+  Lifecycle Callbacks 15 minutes
+  Writing a BeanPostProcessor 11 minutes
+  Writing a BeanFactoryPostProcessor 15 minutes
+  Coding To Interfaces 10 minutes
+  
+  
+UNIT 3
+
+Annotations and Event Handling
+There is an easier (and better) way to manage your Spring configuration - using Annotations. Learn how to declare and configure Spring beans using annotations. Learn how to autowire beans and implement component stereotypes. Also learn how to write and publish custom events in your Spring application.
+
+  Introduction to Annotations and the Required Annotation 9 minutes
+  The Autowired Annotation 14 minutes
+  Some JSR-250 Annotations 8 minutes
+  Component and Stereotype Annotations 12 minutes
+  Using MessageSource To Get Text From Property Files 21 minutes
+  Event Handling in Spring 16 minutes
