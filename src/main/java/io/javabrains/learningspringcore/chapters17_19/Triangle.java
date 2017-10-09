@@ -1,4 +1,4 @@
-package io.javabrains.learningspringcore.chapters17;
+package io.javabrains.learningspringcore.chapters17_19;
 
 public class Triangle implements Shape{
 

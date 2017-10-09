@@ -1,11 +1,11 @@
-package io.javabrains.learningspringcore.chapters17;
+package io.javabrains.learningspringcore.chapters17_19;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class DrawingApp {
 
 	public static void main(String[] args) {
-		try (ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("chapters17/spring.xml")) {
+		try (ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("chapters17_19/spring.xml")) {
 
 			/*Triangle triangle = (Triangle) context.getBean("triangle");
 			triangle.draw();
