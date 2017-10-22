@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+	<bean id="triangle" class="io.javabrains.learningspringcore.chapters20.Triangle"
+		autowire="byName" />
+
+	<!-- id should be same as variable name in Class -->
+	<bean id="pointA" class="io.javabrains.learningspringcore.chapters20.Point"> 
+		<qualifier value="circleRelated" /> <property name="x" value="0" /> <property 
+		name="y" value="0" /> </bean>
+	<bean id="pointB" class="io.javabrains.learningspringcore.chapters20.Point">
+		<property name="x" value="20" />
+		<property name="y" value="0" />
+	</bean>
+	<bean id="pointC" class="io.javabrains.learningspringcore.chapters20.Point">
+		<property name="x" value="0" />
+		<property name="y" value="20" />
+	</bean>
+	
+	<bean id="circle" class="io.javabrains.learningspringcore.chapters20.Circle"/>
+	
+	<context:annotation-config />
+</beans>

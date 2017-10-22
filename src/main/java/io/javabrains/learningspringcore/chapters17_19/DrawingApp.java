@@ -6,7 +6,7 @@ public class DrawingApp {
 
 	public static void main(String[] args) {
 		try (ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("chapters17_19/spring.xml")) {
-
+			context.registerShutdownHook();
 			/*Triangle triangle = (Triangle) context.getBean("triangle");
 			triangle.draw();
 
