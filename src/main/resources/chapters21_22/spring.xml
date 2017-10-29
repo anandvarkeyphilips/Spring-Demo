@@ -30,6 +30,6 @@
 		</property>
 	</bean>
 
-	<context:component-scan base-package="io.javabrains.learningspringcore" />
+	<context:component-scan base-package="io.javabrains.learningspringcore.chapters21_22" />
 	<context:annotation-config />
 </beans>
